@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_record_glucose">
+
+    <fragment
+        android:id="@+id/nav_record_glucose"
+        android:name="com.app.glucosemonitor.ui.home.RecordGlucoseFragment"
+        android:label="Record Glucose"
+        tools:layout="@layout/fragment_record_glucose" />
+
+    <fragment
+        android:id="@+id/nav_display_glucose"
+        android:name="com.app.glucosemonitor.ui.displaydata.DisplayGlucoseFragment"
+        android:label="Display Glucose"
+        tools:layout="@layout/fragment_display_glucose" />
+</navigation>

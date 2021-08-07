@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "946663392594",
+    "project_id": "glucose-mon",
+    "storage_bucket": "glucose-mon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946663392594:android:bd0b2f320ec4e69187668b",
+        "android_client_info": {
+          "package_name": "com.app.glucosemonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946663392594-h8m9li4v0donfqbqjbhi89q3amdngtis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.glucosemonitor",
+            "certificate_hash": "d72f24ead681b4b63c92176738ef138612c779b3"
+          }
+        },
+        {
+          "client_id": "946663392594-q90b1batm423rih6dsrn7kptdnml8o05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAby3pV-O5FIfZ-OLSw7UR4P8nD6Ch5ISo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946663392594-q90b1batm423rih6dsrn7kptdnml8o05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

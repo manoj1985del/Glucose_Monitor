@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Glucose Monitor</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="record_glucose">Record Glucose Levels</string>
+    <string name="display_glucose">View Glucose Levels</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="login_to_continue">Login to continue!</string>
+    <string name="login_using_phone">Login Using Phone</string>
+
+    <string name="sign_up_text"><font color='#7D7D7D'>Don\'t have an account? </font><font color='#007AFF'><u>Sign up</u></font></string>
+    <string name="login_text"><font color='#7D7D7D'>Already have an account? </font><font color='#007AFF'><u>Login</u></font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="signup">Signup</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_to_continue">Sign up to continue!</string>
+    <string name="name">Name</string>
+    <string name="welcome_guest">Welcome Guest</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="sugar_concentration">Sugar Concentration</string>
+    <string name="mg_dl">mg/dL</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="notes">Notes</string>
+    <string name="icon_glucose_meter">icon glucose meter</string>
+    <string name="logout">Logout</string>
+    <string name="expand_notes">expand notes</string>
+    <string name="submit">Submit</string>
+</resources>

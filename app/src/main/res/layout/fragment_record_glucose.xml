@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.RecordGlucoseFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txt_welcome_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_guest"
+            android:textColor="@color/flat_black"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/edit_text_glucose"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_welcome_user"
+            android:layout_marginTop="40dp"
+            android:autofillHints="glucose"
+            android:background="@drawable/auth_edit_text_bg"
+            android:hint="@string/sugar_concentration"
+            android:inputType="numberDecimal"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:textColor="#929292" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/edit_text_glucose"
+            android:layout_alignEnd="@id/edit_text_glucose"
+            android:layout_alignBottom="@id/edit_text_glucose"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/mg_dl"
+            android:textColor="#929292"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edit_text_date"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_glucose"
+            android:layout_marginTop="20dp"
+            android:autofillHints="date"
+            android:background="@drawable/auth_edit_text_bg"
+            android:focusable="false"
+            android:hint="@string/date"
+            android:inputType="date"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:textColor="#929292" />
+
+        <EditText
+            android:id="@+id/edit_text_time"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_glucose"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/edit_text_date"
+            android:autofillHints="time"
+            android:background="@drawable/auth_edit_text_bg"
+            android:focusable="false"
+            android:hint="@string/time"
+            android:inputType="time"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:textColor="#929292" />
+
+        <EditText
+            android:id="@+id/edit_text_notes"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_date"
+            android:layout_marginTop="20dp"
+            android:autofillHints="notes"
+            android:background="@drawable/auth_edit_text_bg"
+            android:hint="@string/notes"
+            android:inputType="textMultiLine"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="12dp"
+            android:textColor="#929292" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text_notes"
+            android:layout_marginTop="40dp"
+            android:text="@string/submit" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
